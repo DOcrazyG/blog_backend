@@ -1,4 +1,4 @@
-# FastAPI + MySQL实现博客后端 API
+# FastAPI + SQLalchemy + MySQL实现博客后端 API
 
 参考（其实是copy!）([FastAPI 实战项目教程：构建完整的博客 API - IT-手册](https://buffaloboyhlh.github.io/it-handbooks/Web篇/FastAPI/practice/#6))上的项目描述实现的博客后端案例，可以用于fastAPI练手。
 
@@ -11,7 +11,6 @@ source venv/bin/activate  # Linux激活虚拟环境
 
 pip install -r requirements.txt
 ```
-
 
 
 ## 项目架构
