@@ -32,6 +32,9 @@ blog_api_project/
 ```
 
 - `app/`：主要应用代码，包括数据库、模型、API 路由等。
+- `main.py`：代码执行入口。
+- `database.py`：mysql数据库连接配置。
+- `models.py`：mysql数据库表结构的设计。
 - `routers/`：不同功能模块的 API 路由。
-- `schemas.py`：定义请求和响应数据结构。
+- `schemas.py`：pydantic定义请求和响应数据结构。
 - `auth.py`：JWT 认证逻辑。
